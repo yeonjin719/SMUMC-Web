@@ -47,6 +47,7 @@ const Buttons = styled.div<ContainerProps>`
     @media (max-width: 440px) {
         width: 100%;
         justify-content: space-between;
+        align-items: center;
     }
 `;
 
