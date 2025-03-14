@@ -50,7 +50,7 @@ const Buttons = styled.div<ContainerProps>`
     }
 `;
 
-const Button = styled(Link)<ContainerProps>`
+const Button = styled.div<ContainerProps>`
     text-decoration: none;
     color: ${(props) => (props.islight ? '#000000' : '#e0e0e0')};
 `;

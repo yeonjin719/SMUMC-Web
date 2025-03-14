@@ -1,6 +1,6 @@
 import * as S from './projectCard.style';
 import { Project } from '../../../mocks/projectData';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ProjectModal from '../projectModal/projectModal';
 import errImg from '../../../images/recruitingposter.webp';
 
@@ -16,8 +16,6 @@ function ProjectCard(props: Project) {
     const handleCloseModal = () => {
         setModalOpen(false);
     };
-
-    useEffect(() => {}, [modalOpen]);
 
     return (
         <S.Container onClick={handleOpenModal}>

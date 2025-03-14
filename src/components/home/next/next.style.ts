@@ -62,6 +62,7 @@ const Img = styled.div`
         top: 0;
         left: 0;
         transition: opacity 0.3s ease-in-out;
+        object-fit: cover;
     }
 
     .firstImg {
