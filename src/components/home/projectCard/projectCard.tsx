@@ -18,7 +18,7 @@ const ProjectCard = ({
             <S.Img>
                 <img
                     src={
-                        'https://raw.githubusercontent.com/SMU-UMC/SMUMC-NEXT/refs/heads/main/public' +
+                        'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public' +
                         img
                     }
                     alt={name}
