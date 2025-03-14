@@ -10,11 +10,20 @@ const NEWS_INFOS = [
     },
     {
         id: 2,
+        title: 'SMUMC 미니프로젝트',
+        description:
+            '성공적인 데모데이를 위해 실제 프로젝트를 어떻게 하는 지 배우고, 데모데이에서 좋은 결과를 낼 수 있도록 도와주는 디딤돌 역할을 하는 프로젝트입니다.',
+        image: '/miniproject.png',
+        detailImage: '/miniproject.png',
+        date: '25.03.14 ~ 25.06.xx',
+    },
+    {
+        id: 3,
         title: 'UMC 8기 데모데이',
         description:
             'UMC 8기 데모데이 행사가 8월 중 개최 될 예정입니다 🎉 다양한 학교와의 협업을 통해 기획한 아이디어와 디자인을 바탕으로 실제 서비스를 제작할 예정입니다.',
         image: '/demodayposter.webp',
-        detailImage: '/demoday.webp',
+        detailImage: '/demoday.jpg',
         date: '25.05.12 ~ 24.08.25',
     },
 ];
