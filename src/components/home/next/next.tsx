@@ -45,12 +45,12 @@ const Next = () => {
                         <S.Card>
                             <S.Img>
                                 <img
-                                    src={`${info.image}`}
+                                    src={`https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/${info.image}`}
                                     className="firstImg"
                                     alt="first image"
                                 />
                                 <img
-                                    src={`${info.detailImage}`}
+                                    src={`https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/${info.detailImage}`}
                                     className="secondImg"
                                     alt="second image"
                                 />
