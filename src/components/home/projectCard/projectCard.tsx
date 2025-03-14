@@ -1,6 +1,5 @@
 import * as S from './projectCard.style';
 import { Project } from '../../../mocks/projectData';
-import errImg from '../../../images/recruitingposter.webp';
 interface ProjectCardProps extends Project {
     isActive: boolean;
 }
@@ -23,7 +22,8 @@ const ProjectCard = ({
                     }
                     alt={name}
                     onError={(e) => {
-                        e.currentTarget.src = errImg;
+                        e.currentTarget.src =
+                            'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/recrjitingposter.webp';
                     }}
                 />
             </S.Img>

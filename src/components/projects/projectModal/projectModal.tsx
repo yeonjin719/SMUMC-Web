@@ -1,8 +1,6 @@
 import * as S from './projectModal.style';
 import Portal from '../portal/portal';
 import { Project } from '../../../mocks/projectData';
-import errImg from '../../../images/recruitingposter.webp';
-
 interface ProjectModalProps extends Project {
     onClose: () => void;
 }
@@ -62,7 +60,8 @@ const ProjectModal = ({
                             }
                             alt={name}
                             onError={(e) => {
-                                e.currentTarget.src = errImg;
+                                e.currentTarget.src =
+                                    'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/recrjitingposter.webp';
                             }}
                         />
                         <S.Stacks>

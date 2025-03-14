@@ -2,7 +2,6 @@ import * as S from './projectCard.style';
 import { Project } from '../../../mocks/projectData';
 import { useState } from 'react';
 import ProjectModal from '../projectModal/projectModal';
-import errImg from '../../../images/recruitingposter.webp';
 
 function ProjectCard(props: Project) {
     const { name, description, img, year } = props;
@@ -30,7 +29,8 @@ function ProjectCard(props: Project) {
                     }
                     alt={name}
                     onError={(e) => {
-                        e.currentTarget.src = errImg;
+                        e.currentTarget.src =
+                            'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/recrjitingposter.webp';
                     }}
                 />
             </S.Img>
