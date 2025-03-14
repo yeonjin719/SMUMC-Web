@@ -1,21 +1,21 @@
 const NEWS_INFOS = [
     {
         id: 1,
-        title: 'UMC 8기 데모데이',
-        description:
-            'UMC 8기 데모데이 행사가 8월 중 개최 될 예정입니다 🎉 다양한 학교와의 협업을 통해 기획한 아이디어와 디자인을 바탕으로 실제 서비스를 제작할 예정입니다.',
-        image: '/demodayposter.webp',
-        detailImage: '/demoday.webp',
-        date: '25.05.12 ~ 24.08.25',
-    },
-    {
-        id: 2,
         title: '8th UMC 신규 챌린저 모집',
         description:
             '📢 IT 연합 사이드 프로젝트 동아리 UMC 상명대 7기 챌린저 모집을 진행 할 예정입니다.',
         image: '/recruitingposter.webp',
         detailImage: '/recruitingposter.jpg',
         date: '25.02.17 ~ 25.03.02',
+    },
+    {
+        id: 2,
+        title: 'UMC 8기 데모데이',
+        description:
+            'UMC 8기 데모데이 행사가 8월 중 개최 될 예정입니다 🎉 다양한 학교와의 협업을 통해 기획한 아이디어와 디자인을 바탕으로 실제 서비스를 제작할 예정입니다.',
+        image: '/demodayposter.webp',
+        detailImage: '/demoday.webp',
+        date: '25.05.12 ~ 24.08.25',
     },
 ];
 
