@@ -421,9 +421,21 @@ const PROJECTS = [
         img: '/5year/이사/이사.png',
         release: '',
     },
+    {
+        id: 32,
+        name: 'QASTUDIO',
+        description: '역할 기반 자동화 테스트 제공 서비스',
+        theme: ['WEB', 'SPRING'],
+        github: null,
+        year: 7,
+        member: ['조이/정혜원', '코튼/김연진', '제이미/김준환'],
+        stack: ['REACT', 'SPRING'],
+        img: '/7year/QASTUDIO/QASTUDIO.png',
+        release: '',
+    },
 ];
 
-const PROJECTS_YEAR = ['All', 5, 4, 3];
+const PROJECTS_YEAR = ['All', 7, 5, 4, 3];
 
 export { PROJECTS, PROJECTS_YEAR };
 export type { Project };

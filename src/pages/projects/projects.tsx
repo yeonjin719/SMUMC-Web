@@ -21,6 +21,13 @@ const Navbar = () => {
                     전체
                 </S.Generation>
                 <S.Generation
+                    onClick={() => setIsClicked(7)}
+                    $isclicked={isClicked === 7}
+                    islight={theme}
+                >
+                    7기
+                </S.Generation>
+                <S.Generation
                     onClick={() => setIsClicked(5)}
                     $isclicked={isClicked === 5}
                     islight={theme}
