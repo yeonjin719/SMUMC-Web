@@ -27,8 +27,8 @@ const PrivacyPolicyModal = ({ onClose }: PrivacyPolicyModalProps) => {
                             <h3>[개인정보 문의]</h3>
                             <S.Description>
                                 개인정보나 홈페이지에 관련된 문의사항이 있으시면
-                                <a href="mailto:kyj0719@gmail.com">
-                                    kyj0719@gmail.com
+                                <a href="mailto:umc.smu@gmail.com">
+                                    umc.smu@gmail.com
                                 </a>
                                 로 연락해 주세요.
                             </S.Description>

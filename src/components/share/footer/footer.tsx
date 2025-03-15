@@ -35,7 +35,7 @@ const Footer = () => {
                 <S.Button onClick={handleOpenModal} islight={theme}>
                     Privacy Policy
                 </S.Button>
-                <S.ATag href="mailto:musoyou1127@gmail.com" islight={theme}>
+                <S.ATag href="mailto:umc.smu@gmail.com" islight={theme}>
                     Contact To
                 </S.ATag>
             </S.Buttons>
