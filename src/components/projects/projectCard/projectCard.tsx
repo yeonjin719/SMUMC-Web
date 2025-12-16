@@ -30,7 +30,7 @@ function ProjectCard(props: Project) {
                     alt={name}
                     onError={(e) => {
                         e.currentTarget.src =
-                            'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/recrjitingposter.webp';
+                            'https://raw.githubusercontent.com/yeonjin719/SMUMC-DATA/main/public/images/recruitingposter.webp';
                     }}
                 />
             </S.Img>
